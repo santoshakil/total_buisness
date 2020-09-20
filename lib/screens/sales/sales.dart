@@ -1,3 +1,4 @@
+import 'package:total_buisness/screens/sales/widgets/search_bar.dart';
 import 'package:total_buisness/services/auth.dart';
 import 'package:flutter/material.dart';
 
@@ -26,6 +27,16 @@ class Sales extends StatelessWidget {
               },
             ),
           ],
+        ),
+        body: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: SingleChildScrollView(
+            child: Stack(
+              children: [
+                searchBarSales(),
+              ],
+            ),
+          ),
         ),
       ),
     );
