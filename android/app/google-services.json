@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "141406523330",
+    "firebase_url": "https://total-buisness.firebaseio.com",
+    "project_id": "total-buisness",
+    "storage_bucket": "total-buisness.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141406523330:android:91d5607ad158a5907f505b",
+        "android_client_info": {
+          "package_name": "com.example.total_buisness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141406523330-g3fhobfob49k6iqb0g3mhofkanamnn0v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.total_buisness",
+            "certificate_hash": "8cf55d517ca16fec0152b428e66f5b07e57c1e24"
+          }
+        },
+        {
+          "client_id": "141406523330-oog2ktstruirhmkr16j9ogb1ij8aa8eb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX1MlDKRu379D6Fc4wJqlinSoelxCTCwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141406523330-oog2ktstruirhmkr16j9ogb1ij8aa8eb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
