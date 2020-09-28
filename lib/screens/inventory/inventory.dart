@@ -12,7 +12,7 @@ class Inventory extends StatelessWidget {
         backgroundColor: Colors.white,
         appBar: AppBar(
           title: Text(
-            '       Inventory',
+            '       Summary',
             style: TextStyle(color: Colors.black),
             textAlign: TextAlign.center,
           ),

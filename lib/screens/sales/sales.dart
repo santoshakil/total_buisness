@@ -20,11 +20,9 @@ class Sales extends StatelessWidget {
           elevation: 0.0,
           actions: <Widget>[
             FlatButton.icon(
-              icon: Icon(Icons.person),
-              label: Text('logout'),
-              onPressed: () async {
-                await _auth.signOut();
-              },
+              icon: Icon(Icons.add),
+              label: Text('Add Product'),
+              onPressed: () {},
             ),
           ],
         ),
