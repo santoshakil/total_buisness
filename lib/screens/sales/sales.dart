@@ -1,9 +1,9 @@
+import 'package:total_buisness/screens/sales/widgets/add_product.dart';
 import 'package:total_buisness/screens/sales/widgets/search_bar.dart';
-import 'package:total_buisness/services/auth.dart';
 import 'package:flutter/material.dart';
 
 class Sales extends StatelessWidget {
-  final AuthService _auth = AuthService();
+  //final AuthService _auth = AuthService();
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,15 @@ class Sales extends StatelessWidget {
             FlatButton.icon(
               icon: Icon(Icons.add),
               label: Text('Add Product'),
-              onPressed: () {},
+              onPressed: () {
+                showDialog(
+                  useSafeArea: true,
+                  context: context,
+                  builder: (BuildContext contex) {
+                    return addProduct();
+                  },
+                );
+              },
             ),
           ],
         ),
